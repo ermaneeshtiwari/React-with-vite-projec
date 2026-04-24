@@ -9,10 +9,13 @@ import StateFunComp from './componentes/StateFunComp'
 import StateClassComp from './componentes/StateClassComp'
 import PropFunComponent from './componentes/PropFunComponent'
 import PropClassComponent from './componentes/PropClassComponent'
+import GetInputFieldsValue from './componentes/GetInputFieldsValue'
+import ShowHideToggle from './componentes/ShowHideToggle.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <GetInputFieldsValue />
+    <ShowHideToggle />
     <FunComponente />
     <ClassComponente />
     <JsxComponent />
